@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">viewbinding</string>
+    <string name="Name">NAME</string>
+    <string name="rollno">Roll No.</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+</resources>

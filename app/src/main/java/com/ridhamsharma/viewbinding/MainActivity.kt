@@ -4,6 +4,7 @@ import android.app.Dialog
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -25,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             var name= dialog.findViewById<EditText>(R.id.etFillname)
             var rollno = dialog.findViewById<EditText>(R.id.etFillRollno)
             var update = dialog.findViewById<Button>(R.id.btnCustomUpdate)
+            dialog.getWindow()?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+
 
             update.setOnClickListener {
                 if(name.text.toString().isNullOrEmpty()){

@@ -12,6 +12,7 @@
         android:id="@+id/guide_h_30"
         app:layout_constraintGuide_percent=".30"
         />
+
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
